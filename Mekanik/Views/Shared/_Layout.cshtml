@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" Content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Mekanik</title>
+    <link href="~/Content/handyman/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/handyman/css/main.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/handyman/css/style.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/handyman/css/animate.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/handyman/css/responsive.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/handyman/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="wrap">
+
+        <!--======= TOP BAR =========-->
+        <div class="top-bar">
+            <div class="container">
+                <ul class="left-bar-side">
+                    <li>
+                        <p class="exo"> HIZLI SERVİS</p>
+                    </li>
+                    <li>
+                        <p class="exo"> KALİTELİ İş</p>
+                    </li>
+                    <li>
+                        <p class="exo"> Yaşam Boyu Destek </p>
+                    </li>
+                </ul>
+                <ul class="right-bar-side social_icons">
+                    <li class="facebook"> <a href="#."><i class="fa fa-facebook"></i> </a></li>
+                    <li class="twitter"> <a href="#."><i class="fa fa-twitter"></i> </a></li>
+                    <li class="linkedin"> <a href="#."><i class="fa fa-linkedin"></i> </a></li>
+                    <li class="tumblr"> <a href="#."><i class="fa fa-tumblr"></i> </a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--======= HEADER =========-->
+        <header>
+            <div class="container">
+
+                <!--======= LOGO =========-->
+                <div class="logo" style="width:15%"> <a><img src="~/Content/handyman/images/mymec.svg" alt=""></a> </div>
+
+          
+                <!--======= TOP INFORMATION =========-->
+                <div class="header-contact">
+                    <ul class="row">
+                        <li class="col-xs-6">
+                            <i class="fa fa-home"></i>
+                            <p>
+                                İstiklal mah Alemdağ cad no 274/1 Üsküdar/İstanbul
+                            </p>
+                        </li>
+                        <li class="col-xs-6">
+                            <i class="fa fa-phone"></i>
+                            <h6>+90 542 677 78 76</h6>
+                            <p class="exo"> ibrahimakcakoca@gmail.com </p>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--======= NAV =========-->
+                <nav>
+
+                    <!--======= MENU START =========-->
+                    <ul class="ownmenu">
+                        <li class="active">
+                            <a href="index.html">Anasayfa</a>
+                            @*<ul class="dropdown">
+                                <li><a href="02-Home.html">Home 2</a></li>
+                                <li><a href="index-2.html">index Slider 2</a></li>
+                            </ul>*@
+                        </li>
+                        <li><a href="03-About.html">HAKKIMIZDA </a></li>
+                        <li><a href="04-Services.html">SERVİS</a></li>
+                        <li><a href="07-Gallery.html">GALERİ</a></li>
+                        @*<li><a href="10-Blog.html">Blog</a></li>*@
+                        <li><a href="12-Contact-Page.html">İLETİŞİM</a></li>
+                        <!--<li>
+                            <a href="index.html">Pages</a>-->
+
+                            <!--======= MEGA MENU =========-->
+                            <!--<div class="megamenu full-width">
+                                <h6>All Pages</h6>
+                                <div class="row nav-post">
+                                    <div class="col-sm-3 boder-da-r">
+                                        <ul>
+                                            <li><a href="index.html">Anasayfa</a></li>
+                                            <li><a href="02-Home.html">Home 2</a></li>
+                                            <li><a href="index-2.html">index Slider 2</a></li>
+                                            <li><a href="03-About.html">About</a></li>
+                                            <li><a href="04-Services.html">Services</a></li>
+                                            <li><a href="05-Services-2.html">Services 2</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <ul>
+                                            <li><a href="06-Services-Details.html">Services Details</a></li>
+                                            <li><a href="07-Gallery.html">Gallery</a></li>
+                                            <li><a href="08-Gallery-Full-width.html">Gallery Full Width</a></li>
+                                            <li><a href="10-Blog.html">Blog</a></li>
+                                            <li><a href="11-Blog-Single.html">Blog Single</a></li>
+                                            <li><a href="12-Contact-Page.html">Contact </a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-6"> <img class="img-responsive pull-right" src="~/Content/handyman/images/nav-img.png" alt=""> </div>
+                                </div>
+                            </div>-->
+                        @*</li>*@
+                    </ul>
+
+                    <!--======= SUBMIT COUPON =========-->
+                    <div class="sub-nav-co"> <a href="#."><i class="fa fa-search"></i></a> </div>
+                </nav>
+            </div>
+        </header>
+
+
+
+        @RenderBody()
+    </div>
+    <footer>
+        <div class="container">
+            <ul class="row">
+                <li class="col-sm-3"> <img class="img-responsive" src="~/Content/handyman/images/footer-img.png" alt=""> </li>
+
+                <!--======= HAPPY CLIENTS =========-->
+                <li class="col-sm-3">
+
+                    <!--======= COUNTER =========-->
+                    <div class="counters">
+                        <i class="fa fa-heart-o"></i>
+                        <p>HAPPY CLIENTS</p>
+                        <span class="count1">2561</span>
+                    </div>
+                    <!--======= LINKS =========-->
+                    <h5>site links</h5>
+                    <hr>
+                    <div class="links">
+                        <ul>
+                            <li><a href="#.">About Us</a></li>
+                            <li><a href="#."> Our Staffs </a></li>
+                            <li><a href="#."> Recent Projects </a></li>
+                            <li><a href="#."> Latest News </a></li>
+                            <li><a href="#."> Pricing Details</a></li>
+                            <li><a href="#."> Contact Us</a> </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!--======= HAPPY CLIENTS =========-->
+                <li class="col-sm-3">
+
+                    <!--======= COUNTER =========-->
+                    <div class="counters">
+                        <i class="fa fa-rocket"></i>
+                        <p>year of service</p>
+                        <span class="count2">21</span>
+                    </div>
+                    <!--======= LINKS =========-->
+                    <h5>services</h5>
+                    <hr>
+                    <div class="links">
+                        <ul>
+                            <li><a href="#.">HandyMan Repairs</a></li>
+                            <li><a href="#."> Drain Cleaning</a></li>
+                            <li><a href="#."> Gas Lines</a></li>
+                            <li><a href="#."> Sewer Lines</a></li>
+                            <li><a href="#."> Water Damage Prevention</a></li>
+                            <li><a href="#."> HandyMan Inspection</a> </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!--======= HAPPY CLIENTS =========-->
+                <li class="col-sm-3">
+
+                    <!--======= COUNTER =========-->
+                    <div class="counters">
+                        <i class="fa fa-trophy"></i>
+                        <p>awards won</p>
+                        <span class="count3">7</span>
+                    </div>
+                    <!--======= LINKS =========-->
+                    <h5>Contact</h5>
+                    <hr>
+                    <p>
+                        Address: 44 New Design Street,
+                        Melbourne 005
+                    </p>
+                    <p>Phone: +61 (123) 456 789</p>
+                    <p>Fax: +91 5464 213</p>
+                    <p>Email: info@example.com</p>
+
+                    <!--======= SOCIAL ICONS =========-->
+
+                    <ul class="social_icons">
+                        <li class="facebook"> <a href="#."><i class="fa fa-facebook"></i> </a></li>
+                        <li class="twitter"> <a href="#."><i class="fa fa-twitter"></i> </a></li>
+                        <li class="linkedin"> <a href="#."><i class="fa fa-linkedin"></i> </a></li>
+                        <li class="tumblr"> <a href="#."><i class="fa fa-tumblr"></i> </a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="rights">
+            <p>Copyright © 2015 HandyMan. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="~/Content/handyman/js/jquery-1.11.0.min.js"></script>
+    <script src="~/Content/handyman/js/wow.min.js"></script>
+    <script src="~/Content/handyman/js/bootstrap.min.js"></script>
+    <script src="~/Content/handyman/js/jquery.stellar.js"></script>
+    <script src="~/Content/handyman/js/jquery.isotope.min.js"></script>
+    <script src="~/Content/handyman/js/jquery.flexslider-min.js"></script>
+    <script src="~/Content/handyman/js/counter.js"></script>
+    <script src="~/Content/handyman/js/owl.carousel.min.js"></script>
+    <script src="~/Content/handyman/js/jquery.sticky.js"></script>
+    <script src="~/Content/handyman/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/Content/handyman/js/own-menu.js"></script>
+    <script src="~/Content/handyman/js/main.js"></script>
+
+</body>
+</html>
